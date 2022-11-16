@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ivanov_pr1819_mobil.ui.home.HomeFragment"
+        android:label="1.Начало"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.ivanov_pr1819_mobil.ui.gallery.GalleryFragment"
+        android:label="2.Сатурн"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.ivanov_pr1819_mobil.ui.slideshow.SlideshowFragment"
+        android:label="3.Юпитер"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_ram"
+        android:name="com.example.ivanov_pr1819_mobil.ui.ram.RamFragment"
+        android:label="4.Уран"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_hdd"
+        android:name="com.example.ivanov_pr1819_mobil.ui.hdd.HddFragment"
+        android:label="5.Меркурий"
+        tools:layout="@layout/fragment_hdd" />
+    <fragment
+        android:id="@+id/nav_gpu"
+        android:name="com.example.ivanov_pr1819_mobil.ui.gpu.GpuFragment"
+        android:label="6.Марс"
+        tools:layout="@layout/fragment_gpu" />
+    <fragment
+        android:id="@+id/nav_bp"
+        android:name="com.example.ivanov_pr1819_mobil.ui.bp.BpFragment"
+        android:label="7.Венера"
+        tools:layout="@layout/fragment_bp" />
+    <fragment
+        android:id="@+id/nav_case"
+        android:name="com.example.ivanov_pr1819_mobil.ui.case.CaseFragment"
+        android:label="8.Нептун"
+        tools:layout="@layout/fragment_case" />
+
+
+
+</navigation>

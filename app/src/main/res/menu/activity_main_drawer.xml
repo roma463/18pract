@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="1.Начало" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="2.Сатурн" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="3.Юпитер" />
+        <item
+            android:id="@+id/nav_ram"
+            android:title="4.Уран" />
+        <item
+            android:id="@+id/nav_hdd"
+
+            android:title="5.Меркурий" />
+        <item
+            android:id="@+id/nav_gpu"
+
+            android:title="6.Марс" />
+        <item
+            android:id="@+id/nav_bp"
+
+            android:title="7.Венера" />
+        <item
+            android:id="@+id/nav_case"
+
+            android:title="8.Нептун"/>
+    </group>
+</menu>

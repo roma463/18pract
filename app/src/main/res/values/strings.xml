@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Справочник по планетам</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Справочник по планетам</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Information</string>
+    <string name="exit">Exit</string>
+
+    <string name="menu_home">1.Начало</string>
+    <string name="menu_gallery">2.Сатурн</string>
+    <string name="menu_slideshow">3.Юпитер</string>
+    <string name="menu_ram">4.Уран</string>
+    <string name="menu_hdd">5.Меркурий</string>
+    <string name="menu_gpu">6.Марс</string>
+    <string name="menu_bp">7.Венера</string>
+    <string name="menu_case">8.Нептун</string>
+    <string name="menu_monitor"> </string>
+    <string name="ram">
+        космос</string>
+
+</resources>
